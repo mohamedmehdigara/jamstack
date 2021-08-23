@@ -18,6 +18,10 @@ def main(args):
     def gen():
         generate('index.html', join(
             settings.OUTPUT_FOLDER, 'index.html'), **context)
+        generate('index2.html', join(
+            settings.OUTPUT_FOLDER, 'index2.html'), **context)
+        generate('index3.html', join(
+            settings.OUTPUT_FOLDER, 'index3.html'), **context)
 
     if len(args) > 1 and args[1] == '--server':
         app = Flask(__name__)

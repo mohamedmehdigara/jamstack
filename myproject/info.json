@@ -1,8 +1,8 @@
 {
-	"head":{
-		"description": "Basic jamstack site",
-		"keywords": "python, jamstack",
-		"author": "R Ja",
-		"theme-color": "#ffb74d"
+	"social":{
+		"facebook": "",
+		"twitter": "",
+		"instagram": "",
+		"github": ""
 	}
 }
